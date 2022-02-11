@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644447750648" clover="3.2.0">
+  <project timestamp="1644447750649" name="All files">
+    <metrics statements="50" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="22" elements="75" coveredelements="67" complexity="0" loc="50" ncloc="50" packages="2" files="10" classes="10"/>
+    <package name="components">
+      <metrics statements="48" coveredstatements="43" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="22"/>
+      <file name="01-welcomeMessage.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\01-welcomeMessage.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="02-clickCounter.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\02-clickCounter.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="03-calculator.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\03-calculator.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="04-favoriteCourse.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\04-favoriteCourse.js">
+        <metrics statements="12" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="05-colorsList.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\05-colorsList.js">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="06-colorsListAdder.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\06-colorsListAdder.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="07-catForm.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\07-catForm.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="08-dogSelect.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\components\08-dogSelect.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="manyDogs.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\data\manyDogs.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="oneCat.js" path="C:\Users\Frede\OneDrive\AppWeb\etu-lab2-BisaillonF-main\src\data\oneCat.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

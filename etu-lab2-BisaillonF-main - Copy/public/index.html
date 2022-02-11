@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/dist/bundle.js"></script>
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+    <title>Exercice</title>
+  </head>
+
+  <body>
+    <div id="component-welcome-message">
+      <h1>Exercice 01 - Message de bienvenue</h1>
+      <p id="welcome-message">
+        Message qui doit être modifié par le code javascript.
+      </p>
+      <button id="clear-message">Effacer le message</button>
+    </div>
+    <div id="component-click-counter">
+      <h1>Exercice 02 - Compteur</h1>
+      <button id="increment-counter">Clic</button>
+      <p id="counter">0</p>
+    </div>
+    <div id="component-calculator">
+      <h1>Exercice 03 - Additionner</h1>
+      <input type="text" id="number-a" value="5" />
+      <input type="text" id="number-b" value="22" />
+      <button id="add-numbers">Additionner</button>
+      <output id="sum"></output>
+    </div>
+    <div id="component-favorite-course">
+      <h1>Exercice 04 - Cours préféré</h1>
+      <button>Programmation Web et jeux vidéo</button>
+      <button>Programmation Web dynamique</button>
+      <button>Développement d'applications Web</button>
+      <button>Développement de services Web</button>
+
+      <p id="favorite-course"></p>
+    </div>
+    <div id="component-colors-list">
+      <h1>Exercice 05 - Liste de couleurs</h1>
+      <button id="get-colors">Inverser la liste</button>
+      <ul id="colors"></ul>
+    </div>
+
+    <div id="component-colors-list-adder">
+      <h1>Exercice 06 - Ajouter une couleur à la liste de l'exercice 5</h1>
+      <input id="color-to-add" />
+      <button id="add-color">Ajouter la couleur</button>
+    </div>
+    <div id="component-cat-form">
+      <h1>Exercice 07 - Formulaire un chat</h1>
+      <form>
+        <label for="cat-name">Nom :</label><br />
+        <input id="cat-name" type="text" name="nom" /><br />
+        <label for="cat-age">Age :</label><br />
+        <input id="cat-age" type="number" name="age" /><br />
+        <label for="cat-breed">Race :</label><br />
+        <input id="cat-breed" type="text" name="race" /><br />
+      </form>
+      <button id="clear-cat">Effacer</button>
+    </div>
+    <div id="component-dogs-list">
+      <h1>Exercice 08 - Sélectionner un chien</h1>
+
+      <p>Nombre de chien : <span id="dogs-count"></span></p>
+      <select id="dogs"></select>
+
+      <form>
+        <label for="dog-name">Nom :</label><br />
+        <input id="dog-name" type="text" name="nom" value="" /><br />
+        <label for="dog-age">Age :</label><br />
+        <input id="dog-age" type="number" name="age" value="" /><br />
+        <label for="dog-breed">Race :</label><br />
+        <input id="dog-breed" type="text" name="race" value="" /><br />
+      </form>
+    </div>
+  </body>
+</html>
